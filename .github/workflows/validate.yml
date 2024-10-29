@@ -45,6 +45,6 @@ jobs:
           path: target/**-reports
           retention-days: 30
       - name: Publish Test Results
-        uses: EnricoMi/publish-unit-test-result-action@v1
+        uses: EnricoMi/publish-unit-test-result-action@v2
         with:
           files: "target/*-reports/TEST*.xml"
