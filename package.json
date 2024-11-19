@@ -2,7 +2,7 @@
   "name": "no-name",
   "scripts": {
     "build": "npm install && playwright install"
-  }
+  },
   "license": "UNLICENSED",
   "type": "module",
   "dependencies": {
