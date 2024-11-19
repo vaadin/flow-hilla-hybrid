@@ -1,9 +1,12 @@
 {
   "name": "no-name",
+  "scripts": {
+    "build": "npm install && playwright install"
+  },
   "license": "UNLICENSED",
   "type": "module",
   "dependencies": {
-    "@playwright/test": "^1.48.0",
+    "@playwright/test": "^1.48.2",
     "@polymer/polymer": "3.5.2",
     "@vaadin/bundles": "24.5.3",
     "@vaadin/common-frontend": "0.0.19",
