@@ -1,7 +1,7 @@
 {
   "name": "no-name",
   "scripts": {
-    "build": "npm install && playwright install"
+    "test": "playwright test"
   },
   "license": "UNLICENSED",
   "type": "module",
@@ -127,7 +127,7 @@
       "workbox-core": "7.3.0",
       "workbox-precaching": "7.3.0"
     },
-    "hash": "ae0a3180a862dd2f1c08e3de976af3acac5568624f0e1950c6fedc749a9fcc2f"
+    "hash": "d727e218de2ae8ec2c521a1b619ae11a00e9dd91121da95d3fc8c1484caf3a95"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -158,8 +158,5 @@
     "@vaadin/vaadin-lumo-styles": "$@vaadin/vaadin-lumo-styles",
     "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles",
     "@playwright/test": "$@playwright/test"
-  },
-  "scripts": {
-    "test": "playwright test"
   }
 }
